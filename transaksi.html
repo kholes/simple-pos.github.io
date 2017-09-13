@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Transaksi Penjualan</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div id="container" class="transaksi">
+			<h3>TOKO KOMPUTER JAVAS</h3>
+			<div id="panel" class="panel-top">
+				<p class="right"><span>No.Transaksi : <span id="noTrx"></span></p>
+				<p><span>Tanggal : </span><span id="tanggal"></span></p>
+				<p><span>Kasir : </span><span id="userId"></span></p>	
+			</div>
+			<div class="c10"></div>
+			<div id="content">
+				<div class="top">
+					<p class="cari">Cari barang</p>
+					<p id="cariBarang"></p>
+				</div>
+				<div class="c10"></div>
+				<div id="listItem" class="list"></div>
+				<div class="c10"></div>
+				<div id="panel-bottom">
+					<div class="total">TOTAL BELANJA : Rp. <span id="total"></span></div>
+					<div class="c"></div>
+					<div class="bottom">
+						<input class="btn left" type="button" id="keluar" name="keluar" value="Keluar">
+						<input class="btn right" type="button" id="simpan" name="simpan" value="Simpan">
+						<input class="btn right" type="button" id="baru" name="baru" value="Baru">
+						<input class="btn right" type="button" id="rekap" name="rekap" value="Rekap">
+					</div>	
+					<div class="c"></div>					
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/transaksi.js"></script>
+	</body>
+</html>

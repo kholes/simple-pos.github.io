@@ -1,0 +1,60 @@
+html,body{
+	width:100%;
+}
+*{
+	margin:0;
+	text-decoration:none;
+	font-family:'Raleway', sans-serif;
+}
+body{
+	background:#9FB6CD;
+}
+@media print{
+	.noprn {display: none;}
+}
+h3{font-size: 18px; margin: 5px 0px;}
+p{margin:0; padding: 5px;}
+.c{clear: both;}
+.c5{clear: both; height: 5px;}
+.c10{clear: both; height: 10px;}
+.btn{border: 1px solid #ccc;background:#104E8B; margin:5px; padding: 15px; color: #fff; cursor: pointer;}
+.btn:hover{background: #1874CD}
+/*============== LOGIN STYLE ====================*/
+.login {display: block;width: 300px; min-height: 240px;margin: auto; margin-top:100px;}
+.login h3{color:#104E8B; text-align: center; text-transform: uppercase; font-size: 18px; padding: 0px; margin: 0px;}
+.login p{color:#fff;}
+.login form{width: 100%; min-height: 240px; border-radius:10px;  background: #1874CD; padding: 10px;}
+.login input[type='text']{width: 100%; height: 35px; font-size: 14px; border: 1px solid #B4EEB4; margin: 10px 0px; padding: 5px; }
+.login input[type='password']{width: 100%; height: 35px; font-size: 14px; border: 1px solid #B4EEB4; margin: 10px 0px; padding: 5px; }
+.login .btn{float: right;}
+
+/*============== TRANSAKSI STYLE ====================*/
+.transaksi {display: block; width: 80%; background: #6C7B8B; margin: auto; margin-top: 5%; padding: 10px;}
+.transaksi h3 {color: #fff; text-align: center; padding: 10px 0px;}
+.panel-top {display: block; min-height: 50px; width: 100%; float: left; background: #B0C4DE; border-radius:10px;}
+.panel-top p{padding: 5px 10px;}
+.panel-top .right{float: right;}
+.cari{color: #ccc;}
+
+#content {display: block; width: 100%; min-height: 300px;}
+#content select{width: 100%; height: 35px; border: 1px solid #ccc;}
+#content .top {width: 100%;text-align: right; min-height: 40px;}
+#content .list {display:block;width: 100%; height: 200px; background: #B0C4DE; overflow: auto;}
+#content .list div{height: 25px; padding: 5px 10px; color: #333}
+
+.panel-bottom {display: block; min-height: 50px; width: 100%; float: left; background: #B0C4DE; border-radius:10px;}
+.total {display: block; width: 100%; height: 40px; color: #8B1A1A; font-size: 20px; font-weight: bold; text-align: right;}
+.right {float: right;}
+.left {float: left;}
+/*============== REKAP STYLE ====================*/
+.rekap{display: block; width: 80%; background: #fff; margin: auto; margin-top: 5%; padding: 10px;}
+.rekap h3{text-align: center; text-transform: uppercase;}
+.rekap table{background: #333;}
+.rekap table th{background: #ccc;}
+.rekap table td{background: #fff;}
+/*============== STRUK STYLE ====================*/
+.rekap{display: block; width: 80%; background: #fff; margin: auto; margin-top: 5%; padding: 10px;}
+.rekap h3{text-align: center; text-transform: uppercase;}
+.rekap table{background: #333;}
+.rekap table th{background: #ccc;}
+.rekap table td{background: #fff;}
